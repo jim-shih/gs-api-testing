@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gs-api-testing"
+version = "0.1.0"
+description = ""
+authors = ["jimshih <jim732883@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+google-api-python-client = "^2.154.0"
+google = "^3.0.0"
+python-dotenv = "^1.0.1"
+google-auth-oauthlib = "^1.2.1"
+requests = "^2.32.3"
+pre-commit = "^4.0.1"
+yapf = "^0.43.0"
+black = "^24.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
